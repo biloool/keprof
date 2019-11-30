@@ -27,4 +27,24 @@ class Welcome extends CI_Controller {
 	{
 		$this->load->view('pages/login');
 	}
+	public function admin()
+	{
+		$this->load->view('admin/navbar');
+		$this->load->view('admin/home_admin');
+	}
+	public function data_anak()
+	{
+		$this->load->view('partial/nav_guest');
+		$this->load->view('pages/data_anak');
+	}
+	public function program()
+	{
+		$this->load->view('partial/nav_guest');
+		$this->load->view('pages/program');
+	}
+	public function tentang()
+	{
+		$this->load->view('partial/nav_guest');
+		$this->load->view('pages/tentang');
+	}
 }

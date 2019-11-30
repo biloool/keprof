@@ -30,7 +30,7 @@
     <div class="card-body login-card-body">
       <p class="login-box-msg">Login untuk masuk halaman admin</p>
       
-      <form action="#?>" method="POST">
+      <form action="<?php echo base_url('welcome/admin')?>" method="POST">
         <div class="input-group mb-3">
           <input type="text" name="username" class="form-control" placeholder="Username">
           <div class="input-group-append input-group-text">

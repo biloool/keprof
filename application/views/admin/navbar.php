@@ -10,10 +10,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="<?php echo base_url() ?>">
-            <img src="<?php echo base_url() ?>assets/img/logo.jpg" width="30" height="30" class="d-inline-block align-top" alt="">
-            Shafiqa Nurrahman
-        </a>
+        <img src="<?php echo base_url() ?>assets/img/logo.jpg" width="30" height="30" alt="">
+        <a class="navbar-brand" href="<?php echo base_url() ?>">Shafiqa Nurrahman</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -23,21 +21,17 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     <a class="nav-link"href="<?php echo base_url() ?>">Home <span class="sr-only">Home</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="<?php echo base_url('welcome/data_anak') ?>">Data Anak</a>
+                    <a class="nav-link" href="#">Data Anak</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="<?php echo base_url('welcome/program') ?>">Program</a>
+                    <a class="nav-link" href="#">Fasilitas</a>
                 </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="<?php echo base_url('welcome/tentang') ?>" role="button" aria-haspopup="true" aria-expanded="false">Tentang</a>
-                    <div class="dropdown-menu">
-                        <a class="dropdown-item" href="#">Struktur Organisasi</a>
-                        <a class="dropdown-item" href="#">Visi dan Misi</a>
-                    </div>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Tentang</a>
                 </li>
             </ul>
             <form class="form-inline my-2 my-lg-0" action="<?php echo base_url('welcome/login')?>">
-                <button class="btn btn-outline-secondary my-2 my-sm-0" type="submit">Admin</button>
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Admin</button>
             </form>
         </div>
     </nav>
