@@ -21,7 +21,8 @@ class Welcome extends CI_Controller {
 	public function index()
 	{
 		$this->load->view('partial/nav_guest');
-		$this->load->view('pages/home_guest');
+		$this->load->view('pages/home');
+		$this->load->view('partial/footer');
 	}
 	public function login()
 	{
@@ -41,10 +42,11 @@ class Welcome extends CI_Controller {
 	{
 		$this->load->view('partial/nav_guest');
 		$this->load->view('pages/program');
+		$this->load->view('partial/footer');
 	}
-	public function tentang()
+	public function profil()
 	{
 		$this->load->view('partial/nav_guest');
-		$this->load->view('pages/tentang');
+		$this->load->view('pages/profil');
 	}
 }
