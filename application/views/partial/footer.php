@@ -71,7 +71,7 @@ input[type=submit]:hover {
   </div>
   <div class="row">
     <div class="column">
-      <img src="<?php echo base_url() ?>assets/img/logo.jpg" style="width:100%">
+      <img src="<?php echo base_url() ?>assets/img/logo.jpg" style="width:70%">
     </div>
     <div class="column">
       <h4>Panti Sosial Asuhan Anak</h4>
